@@ -9,7 +9,7 @@ It reads the game's own combat log files only. It does not read game memory, inj
 ## Features
 
 - Updates on every shot: the bar jumps to that shot's hit quality, the top label shows the hit text (WRECK, SMASH, HIT, GRAZE, MISS ...)
-- Turrets and missiles only(altho missiles gonna alwasys be shown as hit) . Drones and fighters are ignored
+- Turrets and missiles only(altho missiles gonna always be shown as hit) . Drones and fighters are ignored
 - Color coded: cyan = good, yellow = medium, red = poor
 - Resizable, movable, borderless, always on top
 - Finds the latest combat log automatically and keeps working when the log file changes
