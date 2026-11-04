@@ -36,9 +36,12 @@ Missile hits that have no hit-quality text are shown as a percentage of the best
 
 ## Usage
 
-1. Download or clone this repository
-2. Double-click `run_tracking_meter.bat` (or run `pythonw eve_tracking_meter.py`)
-3. Run EVE in windowed or fixed-window mode so the overlay can sit on top
+1. Download or clone this repository (if you downloaded the ZIP, extract it first)
+2. Double-click `create_shortcut.bat` once. An **EVE Tracking Meter** shortcut with the meter icon appears on your desktop
+3. Start the meter from that shortcut (or double-click `run_tracking_meter.bat`)
+4. Run EVE in windowed or fixed-window mode so the overlay can sit on top
+
+If you move the folder later, run `create_shortcut.bat` again.
 
 | Control | Action |
 |---|---|
@@ -91,9 +94,12 @@ Edit the values at the top of `eve_tracking_meter.py`:
 
 ### 사용법
 
-1. 이 저장소를 내려받습니다
-2. `run_tracking_meter.bat`를 더블클릭합니다
-3. EVE를 창 모드 또는 전체 창 모드로 실행해야 오버레이가 게임 위에 보입니다
+1. 이 저장소를 내려받습니다 (ZIP으로 받았다면 먼저 압축을 풉니다)
+2. `create_shortcut.bat`를 한 번 더블클릭합니다. 바탕화면에 미터 아이콘이 붙은 **EVE Tracking Meter** 바로가기가 생깁니다
+3. 그 바로가기로 실행합니다 (`run_tracking_meter.bat`를 직접 더블클릭해도 됩니다)
+4. EVE를 창 모드 또는 전체 창 모드로 실행해야 오버레이가 게임 위에 보입니다
+
+나중에 폴더를 옮기면 `create_shortcut.bat`를 다시 실행하십시오.
 
 | 조작 | 동작 |
 |---|---|
