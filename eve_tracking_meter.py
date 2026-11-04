@@ -16,6 +16,7 @@ EVE Online 트래킹(명중 품질) 미터 - 세로 분할 막대 오버레이
 
 import os
 import re
+import sys
 import time
 import queue
 import threading
@@ -79,7 +80,11 @@ LISTENER_RE = re.compile(r"Listener:\s*(.+)")
 FILE_TS_RE = re.compile(r"(\d{8}_\d{6})")
 WEAPON_RE = re.compile("|".join(re.escape(k) for k in WEAPON_KEYWORDS), re.I)
 
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+# exe로 실행하면 exe가 있는 폴더, 스크립트로 실행하면 스크립트가 있는 폴더
+if getattr(sys, "frozen", False):
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(sys.executable))
+else:
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 def is_tracked_weapon(weapon):

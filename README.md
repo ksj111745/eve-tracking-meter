@@ -8,6 +8,14 @@ It reads the game's own combat log files only. It does not read game memory, inj
 
 ## Quick start
 
+**Option A – exe (no Python needed)**
+
+1. Open the **Releases** page (right side of this repository) and download `EVE-Tracking-Meter.exe`
+2. Double-click it. You can also right-click it → Send to → Desktop (create shortcut)
+3. Windows may show "Windows protected your PC" the first time because the file is not code-signed. Click **More info → Run anyway**
+
+**Option B – Python script**
+
 1. Download the ZIP (green **Code** button → **Download ZIP**) and extract it
 2. Double-click **`create_shortcut.bat`** — it puts an **EVE Tracking Meter** icon on your desktop
 3. From now on, just double-click that desktop icon
@@ -39,7 +47,7 @@ Missile hits that have no hit-quality text are shown as a percentage of the best
 ## Requirements
 
 - Windows
-- Python 3.9 or newer (https://www.python.org, check **"Add python.exe to PATH"** during install). No extra packages needed (uses tkinter, included with Python)
+- For the script version only: Python 3.9 or newer (https://www.python.org, check **"Add python.exe to PATH"** during install). No extra packages needed (uses tkinter, included with Python)
 - EVE combat logging enabled (on by default). Logs are read from `Documents\EVE\logs\Gamelogs`
 
 ## Usage
@@ -87,6 +95,14 @@ Edit the values at the top of `eve_tracking_meter.py`:
 
 ### 빠른 시작
 
+**방법 A – exe (Python 설치 필요 없음)**
+
+1. 저장소 오른쪽의 **Releases** 페이지에서 `EVE-Tracking-Meter.exe`를 내려받습니다
+2. 더블클릭하면 실행됩니다. 우클릭 → 보내기 → 바탕 화면(바로 가기 만들기)로 바탕화면에 둘 수 있습니다
+3. 코드 서명이 없는 파일이라 처음 실행할 때 "Windows의 PC 보호" 창이 뜰 수 있습니다. **추가 정보 → 실행**을 누르십시오
+
+**방법 B – Python 스크립트**
+
 1. ZIP으로 내려받아(초록색 **Code** 버튼 → **Download ZIP**) 압축을 풉니다
 2. **`create_shortcut.bat`** 를 더블클릭합니다 — 바탕화면에 **EVE Tracking Meter** 아이콘이 생깁니다
 3. 앞으로는 바탕화면 아이콘만 더블클릭하면 됩니다
@@ -105,7 +121,7 @@ Edit the values at the top of `eve_tracking_meter.py`:
 ### 필요 환경
 
 - Windows
-- Python 3.9 이상 (https://www.python.org, 설치 시 **"Add python.exe to PATH"** 체크). 추가 패키지 없음
+- 스크립트 방식만 해당: Python 3.9 이상 (https://www.python.org, 설치 시 **"Add python.exe to PATH"** 체크). 추가 패키지 없음
 - EVE 전투 로그 기록 켜짐 (기본값). `문서\EVE\logs\Gamelogs`에서 읽습니다
 
 ### 사용법
