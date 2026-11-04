@@ -6,6 +6,14 @@ It reads the game's own combat log files only. It does not read game memory, inj
 
 [한국어 설명은 아래에 있습니다](#한국어)
 
+## Quick start
+
+1. Download the ZIP (green **Code** button → **Download ZIP**) and extract it
+2. Double-click **`create_shortcut.bat`** — it puts an **EVE Tracking Meter** icon on your desktop
+3. From now on, just double-click that desktop icon
+
+(Python 3.9+ must be installed. See Requirements below.)
+
 ## Features
 
 - Updates on every shot: the bar jumps to that shot's hit quality, the top label shows the hit text (WRECK, SMASH, HIT, GRAZE, MISS ...)
@@ -76,6 +84,14 @@ Edit the values at the top of `eve_tracking_meter.py`:
 **EVE Online**에서 터렛·미사일 사격의 명중 품질을 실시간으로 보여주는 세로 막대 오버레이입니다.
 
 게임의 전투 로그 파일만 읽습니다. 게임 메모리를 읽거나, 클라이언트에 무언가를 주입하거나, 게임 파일을 바꾸지 않습니다.
+
+### 빠른 시작
+
+1. ZIP으로 내려받아(초록색 **Code** 버튼 → **Download ZIP**) 압축을 풉니다
+2. **`create_shortcut.bat`** 를 더블클릭합니다 — 바탕화면에 **EVE Tracking Meter** 아이콘이 생깁니다
+3. 앞으로는 바탕화면 아이콘만 더블클릭하면 됩니다
+
+(Python 3.9 이상이 설치되어 있어야 합니다. 아래 필요 환경 참고)
 
 ### 기능
 
